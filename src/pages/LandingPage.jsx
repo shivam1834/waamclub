@@ -10,6 +10,7 @@ const LandingPage = () => {
             <div className="container">
                 <div className="left-column">
                     <img src={src} alt="YourImage" className="responsive-image" />
+                    <Link to={'/login'} >login</Link>
                 </div>
                 <div className="right-column">
                     <h1 className="responsive-heading">Welcome to our landing page</h1>
