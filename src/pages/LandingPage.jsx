@@ -3,6 +3,7 @@ import AppleStore from '../assests/appstoreedit.png';
 import GooglePlayedit from '../assests/googlePlayedit.png';
 import src from '../assests/store.png'
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
     return (
