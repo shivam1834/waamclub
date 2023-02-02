@@ -53,7 +53,7 @@ export default function SignIn() {
     }).then((res) => {
       console.log(typeof (res.data.user.email))
       if (role[0] === 1) {
-        navigate("/");
+        navigate("/dashboard");
         console.log('if', res.data.user.email)
       } else if (role[0] === 4) {
         navigate("/vendor/Dashboard");
