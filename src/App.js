@@ -44,6 +44,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact={true} element={<LandingPage/>} />
+        <Route path="*"  element={<LandingPage/>} />
         <Route path="/ragister/demat" exact={true} element={<NewDemat/>} />
         <Route path="/login" exact={true} element={<Login />} />
         <Route path="/signup" exact={true} element={<Signup />} />
