@@ -1,0 +1,20 @@
+Api's - 
+
+Role Based - 
+        Sign up
+        Sign in
+
+Admin Dashboard - 
+       Profile - edit, change password
+       All Franchise data list - update , delete , Add
+       All Agent data list - update, delete, Add
+       Vendor data list - update, delete, Add
+Franchise Dashboard -
+       Profile - edit, change password
+
+Agent Dashboard -
+       Sign up - [Name, email,phone number,what'sapp number,home Addresh, current Address,choose Nearest hub, choose password, pan card no, pan card (image), bank a/c number, bank code Ifsc, bank a/c holder name,aadhar card no,date of Birth, image, Signature]
+       Profile - edit, change password
+Vendor Dashboard -
+       Profile - edit, change password,  wallet balance [Add option]
+       Product - edit [ set for commission product or catagory wise, lock in period money ]
