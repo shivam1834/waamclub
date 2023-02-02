@@ -50,26 +50,6 @@ const App = () => {
         <Route path="/lockscreen" exact={true} element={<LockScreen />} />
         <Route element={<PrivateRoute allowedRoles={[ROLES.Admin]} />}>
           <Route
-            path="/"
-            element={
-              <div className="dashboard-layout">
-                <div className="side-main">
-                  <div className="sticky-side">
-                    <Sidebar />
-                  </div>
-                </div>
-                <div>
-                  <div className="sticky-nav">
-                    <NavBar page="Main Dashboard" />
-                  </div>
-                  <div>
-                    <Dashboard />
-                  </div>
-                </div>
-              </div>
-            }
-          />
-          <Route
             exact={true}
             path="/dashboard"
             element={
