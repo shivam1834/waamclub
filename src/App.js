@@ -49,7 +49,7 @@ const App = () => {
         <Route path="/login" exact={true} element={<Login />} />
         <Route path="/signup" exact={true} element={<Signup />} />
         <Route path="/lockscreen" exact={true} element={<LockScreen />} />
-        {/* <Route element={<PrivateRoute allowedRoles={[ROLES.Admin]} />}>
+        <Route element={<PrivateRoute allowedRoles={[ROLES.Admin]} />}>
           <Route
             exact={true}
             path="/dashboard"
@@ -363,7 +363,7 @@ const App = () => {
               </div>
             }
           />
-          </Route> */}
+          </Route>
       </Routes>
       {/* <Sidebar>
         <Routes>
