@@ -12,7 +12,7 @@ import {
 
 const menuItem = [
     {
-      path: "/",
+      path: "/dashboard",
       name: "Dashboard",
       icon: <FaTh />,
     },
