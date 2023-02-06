@@ -40,8 +40,8 @@ export default function SignIn() {
     //     return SetPasswordError('Must have at least one uppercase letter, one lowercase letter, one number and one special character & min 10 character')
     // }
     SetPasswordError(null)
-    // localStorage.setItem("user", JSON.stringify(user));
-    // localStorage.setItem("roles", [role]);
+    localStorage.setItem("user", JSON.stringify(user));
+    localStorage.setItem("roles", [role]);
 
     console.log({
       email: user.email,
@@ -51,8 +51,8 @@ export default function SignIn() {
       email: user.email,
       password: user.password
     }).then((res) => {
-      console.log(typeof (res.data.user.email))
-      if (role[0] === 1) {
+      console.log("take",res.data.user.email)
+      if (user.email === 'Admin1@gmail.com') {
         navigate("/dashboard");
         console.log('if', res.data.user.email)
       } else if (role[0] === 4) {
