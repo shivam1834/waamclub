@@ -10,7 +10,7 @@ import LoopIcon from '@mui/icons-material/Loop';
 const Agent = () => {
 
   const fetchData = async () => {
-    const response = await fetch('http://aviraspices.in/api/web/getAgent');
+    const response = await fetch('https://www.waamclub.com/admin/api/web/getAgent');
     const data = await response.json();
     console.log(data.data)
     return data;

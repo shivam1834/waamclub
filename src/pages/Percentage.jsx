@@ -15,7 +15,7 @@ import LoopIcon from '@mui/icons-material/Loop';
 const Percentage = () => {
 
   const fetchData = async () => {
-    const response = await fetch('http://aviraspices.in/api/web/getPer');
+    const response = await fetch('https://www.waamclub.com/admin/api/web/getPer');
     const data = await response.json();
     console.log(data.data)
     return data;

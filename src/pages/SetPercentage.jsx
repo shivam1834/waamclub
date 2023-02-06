@@ -15,7 +15,7 @@ const SetPercentage = () => {
 
     const fetchData = async () => {
         setStatus('loading')
-        const response = await fetch('http://aviraspices.in/api/web/getPer');
+        const response = await fetch('https://www.waamclub.com/admin/api/web/getPer');
         const data = await response.json();
         const filteredArray = await data.data.filter(obj => obj.id === parseInt(id));
         await setItem(...filteredArray);
